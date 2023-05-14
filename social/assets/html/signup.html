@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="..\css\style.css" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <div class="container form-container">
+      <form method="post" action="../../mailer/sendmail.php" enctype="multipart/form-data">
+        <h3>Login</h3>
+        <div class="form-element">
+          <label>Sender-Name: </label>
+          <input type="text" name="senderName" />
+        </div>
+        <div class="form-element">
+          <label>Email: </label>
+          <input type="email" name="email" required />
+        </div>
+        <div class="form-element">
+          <label>Subject: </label>
+          <input type="text" name="subject" />
+        </div>
+        <div class="form-element">
+          <label>Message: </label>
+          <input type="textarea" name="message" />
+        </div>
+        <div class="form-element">
+          <label>File: </label>
+          <input type="file" name="attachment" />
+        </div>
+
+        <div class="form-element">
+          <input type="submit" name="send" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

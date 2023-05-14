@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(45deg, #9fccc5 27.27%, #1b78a6 27.27%, #1b78a6 50%, #9fccc5 50%, #9fccc5 77.27%, #1b78a6 77.27%, #1b78a6 100%);
+background-size: 46.67px 46.67px;
+}
+.mail-area{
+    margin: auto;
+    margin-top: 50px;
+
+    border-radius: 4px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px black;
+    width: 500px;
+}
+.mail-area form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input{
+    font-size: 17px;
+    padding:10px;
+    border-radius: 4px;
+    border:1px solid gray;
+    outline: none;
+}
+
+.btn{
+    border: 0px;
+    background-color: dodgerblue;
+    color:white;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-family: 15px;
+}
+textarea{
+    max-width: 100%;
+    height: 170px;
+}
+.up{
+    font-size: 15px;
+    padding:10px;
+    /* border-radius: 4px; */
+    /* border:1px solid gray; */
+    outline: none;
+}
+.btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
